@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.bg-vid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0.7;
+}
+
+.nav-area {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    margin: 19px 50px;
+    height: 60px;
+    float: left;
+    color: azure;
+    font-size: 35px;
+    padding: 12px 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo .log {
+    margin-top: 18px;
+    height: 80px;
+}
+
+.menu-area {
+    float: right;
+    list-style: none;
+    margin: 58px 83px;
+}
+
+.menu-area li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu-area li a {
+    text-decoration: none;
+    color: beige;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.menu-area li a:hover {
+    color: rgb(0, 0, 0);
+    background: #ddd;
+    transition: all 0.5s;
+    border-radius: 7px;
+}
+
+
+/* drop down menu*/
+
+.dropbtn {
+    padding: 13px;
+    font-size: 14px;
+    border: none;
+    border-radius: 9px;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* end of nav bar */
+
+.banner-text {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h3 {
+    color: rgb(222, 214, 214);
+    font-size: 55px;
+    margin: 0;
+    padding: 20px 140px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.banner-text p {
+    color: rgb(255, 244, 244);
+    font-size: 21px;
+    margin: 0;
+    text-align: center;
+    padding: 46px 40px;
+    font-family: 'Arvo', serif;
+}
